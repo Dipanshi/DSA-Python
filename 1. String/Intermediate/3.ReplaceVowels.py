@@ -1,0 +1,1 @@
+# Replace all vowels in a string with '*'

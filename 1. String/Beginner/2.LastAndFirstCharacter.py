@@ -1,0 +1,1 @@
+# Extract the first and last character of a string
