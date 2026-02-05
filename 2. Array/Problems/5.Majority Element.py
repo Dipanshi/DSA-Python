@@ -1,0 +1,1 @@
+#Majority Element (appears > n/2 times)
