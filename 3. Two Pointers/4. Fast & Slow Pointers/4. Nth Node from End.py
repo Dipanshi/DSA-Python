@@ -6,6 +6,8 @@ class ListNode:
 def NthNodeFromEnd(head,N):
     fast=slow=head
     for _ in range(N):
+        if not fast:
+            return None
         fast=fast.next
     while fast:
         slow=slow.next
