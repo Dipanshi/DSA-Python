@@ -15,8 +15,6 @@ def max_subarray_len(nums, k):
 
     return  max_len
 
-nums = [1, -1, 5, -2, 3]
-k = 3
-
-print(max_subarray_len(nums,k))
+print(max_subarray_len([1, -1, 5, -2, 3], 3))   # 4
+print(max_subarray_len([-2, -1, 2, 1], 1))      # 2
 
